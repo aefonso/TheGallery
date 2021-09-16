@@ -706,7 +706,7 @@ img {
   position: absolute;
   top: 0;
   left: 0;
-  width: 1799px;
+  width: 100%;
   overflow: hidden;
   z-index: -1;
   display: flex;
@@ -718,6 +718,9 @@ img {
   text-align: center;
   font-weight: 400;
 }
+.container-item h1 {
+  font-size: 185px;
+}
 
 .container {
   max-width: 1220px;
@@ -727,9 +730,6 @@ img {
   justify-content: center;
   align-items: center;
   flex-direction: row;
-}
-.container h1 {
-  font-size: 190px;
 }
 
 .hero {
@@ -762,7 +762,7 @@ img {
 .gallery-card {
   width: 350px;
   height: 400px;
-  margin-bottom: 4%;
+  margin-bottom: 2%;
   flex-direction: column;
   color: white;
   display: flex;

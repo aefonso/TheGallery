@@ -29,7 +29,7 @@ img{
     top: 0;
     left: 0;
 
-    width: 1799px;
+    width:100%;
     
 
     overflow: hidden;
@@ -37,12 +37,16 @@ img{
 
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center;   
 }
 .container-item{
     h2{
         text-align: center;
         font-weight: 400;
+        }
+        h1{
+            font-size: 185px;
+            
         }
 }
 .container{
@@ -56,10 +60,7 @@ img{
     align-items: center;
 
     flex-direction: row;
-    h1{
-        font-size: 190px;
         
-    }
 }
 .hero{
     height: 100vh;
@@ -95,7 +96,7 @@ img{
   .gallery-card{
     width: 350px;
     height: 400px;
-    margin-bottom: 4%;
+    margin-bottom: 2%;
     flex-direction: column;
     color: white;
   

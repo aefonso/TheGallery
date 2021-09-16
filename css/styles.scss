@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+@import 'sass/colors';
+@import 'sass/typography';
+
+body{
+    width: 100%;
+    background-color: $black-dark;
+}
+
+@media screen and(max-width:960px){
+    body{
+        background-color: $black-dark;
+    }
+}
+
+@import 'sass/spacing';
+@import 'sass/layout';
